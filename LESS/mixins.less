@@ -1,0 +1,36 @@
+.secondary-headings(@font-size) {
+    font-family: @primary-font;
+    font-size: @font-size;
+    font-weight: 700;
+}
+
+.primary-paragraphs(@font-size) {
+    font-family: @secondary-font;
+    font-size: @font-size;
+    line-height: 2rem;
+}
+
+.primary-button {
+    width: 132px;
+    height: 40px;
+    background: @secondary-blue;
+    border-radius: 10px;
+    font-family: @primary-font;
+    font-size: 1.4rem;
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    border: none;
+}
+
+.primary-logo(@font-size) {
+    font-family: @secondary-font;
+    font-size: @font-size;
+    font-weight: bold;
+}
+
+.disp-flex(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
