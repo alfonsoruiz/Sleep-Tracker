@@ -50,7 +50,7 @@ img {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 .home .introduction {
   background: #142C44;
@@ -81,5 +81,55 @@ img {
   margin: 25px 0;
 }
 .home .introduction .cta img {
+  position: absolute;
+  width: 100%;
   margin-top: 200px;
+  bottom: 0;
+  left: 0;
+}
+.home .track {
+  margin: 50px 0;
+  text-align: center;
+}
+.home .track p {
+  margin: 25px 0;
+}
+.home .report {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #142C44;
+  color: white;
+  text-align: center;
+}
+.home .report p {
+  margin: 25px 0;
+}
+.home .final-cta {
+  height: 100vh;
+  background: #88B2D8;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+.home .final-cta .cta p {
+  margin: 25px 0;
+}
+.home .final-cta .cta img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.home footer {
+  background: #88b2d8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+.home footer .footer-logo {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
 }
