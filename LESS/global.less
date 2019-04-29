@@ -7,11 +7,11 @@ html {
 }
 
 h2 {
-    .secondary-headings(34px);
+    .secondary-headings(2.5rem);
 }
 
 p {
-    .primary-paragraphs(14px);
+    .primary-paragraphs(1.4rem);
 }
 
 button {
@@ -32,64 +32,92 @@ img {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 10%;
-
-    @media @tablet {
-        padding: 0 50px;
-    }
-}
-
-.app-display-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    text-align: center;
-
-    .app-description {
-        p {
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
-
-        @media @tablet {
-            width: 70%;
-            margin: 0 auto;
-        }
-    }
-
-    @media @tablet {
-        img {
-            width: 80%;
-        }
-    }
+    padding: 0 40px;
 }
 
 .cta-section {
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 100px 0;
     color: white;
 
+    @media @desktop {
+        padding: 200px 0;
+    }
+
     .cta {
+        img {
+            width: 85%;
+        }
+
         @media @tablet {
-            .disp-flex(space-between, center);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             text-align: left;
-        
+
             img {
                 width: 40%;
             }
         }
 
         .cta-description {
-            @media @tablet {
-                width: 50%;
-            }
 
             p {
                 margin: 25px 0;
             }
 
             button {
-                margin-bottom: 40px;
+                margin-bottom: 80px;
+            }
+
+            @media @tablet {
+                width: 50%;
+                button {
+                    margin-bottom: 0;
+                }
+            }
+
+            @media @desktop {
+                width: 50%;
+                h2 {
+                    font-size: 3.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                    line-height: 2rem;
+                }
+            }
+        }
+    }
+}
+
+.app-display-section {
+    padding: 150px 0;
+    text-align: center;
+
+    .app-container {
+
+        @media @tablet {
+            width: 80%;
+        }
+
+        @media @desktop {
+            width: 60%;
+        }
+
+        .app-description {
+            p {
+                margin: 50px 0;
+            }
+
+            @media @desktop {
+                h2 {
+                    font-size: 3.5rem;
+                }
+                p {
+                    font-size: 1.5rem;
+                    line-height: 2rem;
+                }
             }
         }
     }

@@ -18,12 +18,12 @@ html {
 }
 h2 {
   font-family: 'Nunito', sans-serif;
-  font-size: 34px;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 p {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 2rem;
 }
 button {
@@ -50,60 +50,86 @@ img {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 10%;
-}
-@media (min-width: 700px) {
-  .container {
-    padding: 0 50px;
-  }
-}
-.app-display-section {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  text-align: center;
-}
-.app-display-section .app-description p {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-@media (min-width: 700px) {
-  .app-display-section .app-description {
-    width: 70%;
-    margin: 0 auto;
-  }
-}
-@media (min-width: 700px) {
-  .app-display-section img {
-    width: 80%;
-  }
+  padding: 0 40px;
 }
 .cta-section {
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 100px 0;
   color: white;
+}
+@media (min-width: 1000px) {
+  .cta-section {
+    padding: 200px 0;
+  }
+}
+.cta-section .cta img {
+  width: 85%;
 }
 @media (min-width: 700px) {
   .cta-section .cta {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     text-align: left;
   }
   .cta-section .cta img {
     width: 40%;
   }
 }
-@media (min-width: 700px) {
-  .cta-section .cta .cta-description {
-    width: 50%;
-  }
-}
 .cta-section .cta .cta-description p {
   margin: 25px 0;
 }
 .cta-section .cta .cta-description button {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
+}
+@media (min-width: 700px) {
+  .cta-section .cta .cta-description {
+    width: 50%;
+  }
+  .cta-section .cta .cta-description button {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1000px) {
+  .cta-section .cta .cta-description {
+    width: 50%;
+  }
+  .cta-section .cta .cta-description h2 {
+    font-size: 3.5rem;
+  }
+  .cta-section .cta .cta-description p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+.app-display-section {
+  padding: 150px 0;
+  text-align: center;
+}
+@media (min-width: 700px) {
+  .app-display-section .app-container {
+    width: 80%;
+  }
+}
+@media (min-width: 1000px) {
+  .app-display-section .app-container {
+    width: 60%;
+  }
+}
+.app-display-section .app-container .app-description p {
+  margin: 50px 0;
+}
+@media (min-width: 1000px) {
+  .app-display-section .app-container .app-description h2 {
+    font-size: 3.5rem;
+  }
+  .app-display-section .app-container .app-description p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+header {
+  background: #142C44;
 }
 header .nav-bar {
   display: flex;
@@ -111,7 +137,7 @@ header .nav-bar {
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  background: #142C44;
+  background: transparent;
 }
 header .nav-bar .logo {
   font-family: Helvetica, Arial, sans-serif;
@@ -132,14 +158,14 @@ header .nav-bar .menu {
 .home .cta-two {
   background: #88B2D8;
 }
-.home footer {
+footer {
   background: #88b2d8;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   color: white;
 }
-.home footer .footer-logo {
+footer .footer-logo {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
