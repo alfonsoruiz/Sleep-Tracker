@@ -57,6 +57,11 @@ img {
   padding: 100px 0;
   color: white;
 }
+@media (min-width: 700px) {
+  .cta-section {
+    padding: 150px 0;
+  }
+}
 @media (min-width: 1000px) {
   .cta-section {
     padding: 200px 0;
