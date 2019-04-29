@@ -32,5 +32,65 @@ img {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 10%;
+
+    @media @tablet {
+        padding: 0 50px;
+    }
+}
+
+.app-display-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+
+    .app-description {
+        p {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        @media @tablet {
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+
+    @media @tablet {
+        img {
+            width: 80%;
+        }
+    }
+}
+
+.cta-section {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+
+    .cta {
+        @media @tablet {
+            .disp-flex(space-between, center);
+            text-align: left;
+        
+            img {
+                width: 40%;
+            }
+        }
+
+        .cta-description {
+            @media @tablet {
+                width: 50%;
+            }
+
+            p {
+                margin: 25px 0;
+            }
+
+            button {
+                margin-bottom: 40px;
+            }
+        }
+    }
 }

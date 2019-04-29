@@ -50,76 +50,87 @@ img {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 10%;
 }
-.home .introduction {
-  background: #142C44;
-  height: 100vh;
+@media (min-width: 700px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+.app-display-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
   text-align: center;
+}
+.app-display-section .app-description p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+@media (min-width: 700px) {
+  .app-display-section .app-description {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 700px) {
+  .app-display-section img {
+    width: 80%;
+  }
+}
+.cta-section {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
   color: white;
 }
-.home .introduction header {
+@media (min-width: 700px) {
+  .cta-section .cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  .cta-section .cta img {
+    width: 40%;
+  }
+}
+@media (min-width: 700px) {
+  .cta-section .cta .cta-description {
+    width: 50%;
+  }
+}
+.cta-section .cta .cta-description p {
+  margin: 25px 0;
+}
+.cta-section .cta .cta-description button {
+  margin-bottom: 40px;
+}
+header .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
+  background: #142C44;
 }
-.home .introduction header .logo {
+header .nav-bar .logo {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-weight: bold;
   color: white;
 }
-.home .introduction header .menu {
+header .nav-bar .menu {
   color: white;
 }
-.home .introduction .cta {
-  margin-top: 80px;
-}
-.home .introduction .cta p {
-  margin: 25px 0;
-}
-.home .introduction .cta img {
-  position: absolute;
-  width: 100%;
-  margin-top: 200px;
-  bottom: 0;
-  left: 0;
-}
-.home .track {
-  margin: 50px 0;
-  text-align: center;
-}
-.home .track p {
-  margin: 25px 0;
+.home .cta-one {
+  background: #142C44;
 }
 .home .report {
-  padding-top: 80px;
-  padding-bottom: 80px;
   background: #142C44;
   color: white;
-  text-align: center;
 }
-.home .report p {
-  margin: 25px 0;
-}
-.home .final-cta {
-  height: 100vh;
+.home .cta-two {
   background: #88B2D8;
-  color: white;
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  position: relative;
-}
-.home .final-cta .cta p {
-  margin: 25px 0;
-}
-.home .final-cta .cta img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 .home footer {
   background: #88b2d8;
