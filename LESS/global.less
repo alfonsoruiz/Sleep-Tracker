@@ -63,7 +63,7 @@ img {
         .cta-description {
 
             p {
-                margin: 25px 0;
+                margin: 30px 0;
             }
 
             button {
@@ -84,7 +84,7 @@ img {
                 }
                 p {
                     font-size: 1.5rem;
-                    line-height: 2rem;
+                    line-height: 2.5rem;
                 }
             }
         }
@@ -96,18 +96,26 @@ img {
     text-align: center;
 
     .app-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         @media @tablet {
-            width: 80%;
-        }
-
-        @media @desktop {
-            width: 60%;
+            img {
+                width: 70%;
+            }
         }
 
         .app-description {
+            width: 100%;
+
             p {
                 margin: 50px 0;
+            }
+
+            @media @tablet {
+                width: 70%;
             }
 
             @media @desktop {
