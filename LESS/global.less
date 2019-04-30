@@ -18,6 +18,10 @@ button {
     .primary-button();
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -72,6 +76,10 @@ img {
 
             button {
                 margin-bottom: 80px;
+
+                a{
+                    color: white;
+                }
             }
 
             @media @tablet {
@@ -104,10 +112,24 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        img {
+            width: 90%;
+        }
 
         @media @tablet {
             img {
-                width: 70%;
+                width: 60%;
+            }
+        }
+
+        @media @desktop {
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 0;
+            text-align: left;
+
+            img {
+                width: 40%;
             }
         }
 
@@ -123,9 +145,12 @@ img {
             }
 
             @media @desktop {
+                width: 50%;
+                
                 h2 {
                     font-size: 3.5rem;
                 }
+
                 p {
                     font-size: 1.5rem;
                     line-height: 2rem;

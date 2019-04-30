@@ -4,6 +4,16 @@
         background: @primary-blue;
     }
 
+    .track {
+        .app-container {
+            @media @desktop {
+                img {
+                    order: -1;
+                }
+            }
+        }
+    }
+
     .report {
         background: @primary-blue;
         color: white;
@@ -11,5 +21,12 @@
 
     .cta-two {
         background: #81CFF6;
+        .cta {
+            @media @desktop {
+                img {
+                    order: -1;
+                }
+            }
+        }
     }
 }
