@@ -60,7 +60,7 @@ img {
   padding: 100px 0;
   color: white;
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .cta-section {
     padding: 150px 0;
   }
@@ -73,7 +73,7 @@ img {
 .cta-section .cta img {
   width: 85%;
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .cta-section .cta {
     display: flex;
     align-items: center;
@@ -93,7 +93,7 @@ img {
 .cta-section .cta .cta-description button a {
   color: white;
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .cta-section .cta .cta-description {
     width: 50%;
   }
@@ -131,7 +131,7 @@ img {
 .app-display-section .app-container img {
   width: 90%;
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .app-display-section .app-container img {
     width: 60%;
   }
@@ -152,7 +152,7 @@ img {
 .app-display-section .app-container .app-description p {
   margin: 30px 0;
 }
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .app-display-section .app-container .app-description {
     width: 70%;
   }
