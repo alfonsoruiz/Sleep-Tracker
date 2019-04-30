@@ -106,6 +106,10 @@ img {
 .app-display-section {
     padding: 150px 0;
     text-align: center;
+    
+    @media @desktop {
+        padding: 200px 0;
+    }
 
     .app-container {
         display: flex;
@@ -125,7 +129,6 @@ img {
         @media @desktop {
             flex-direction: row;
             justify-content: space-between;
-            padding: 0 0;
             text-align: left;
 
             img {
@@ -137,7 +140,7 @@ img {
             width: 100%;
 
             p {
-                margin: 50px 0;
+                margin: 30px 0;
             }
 
             @media @tablet {
@@ -146,7 +149,7 @@ img {
 
             @media @desktop {
                 width: 50%;
-                
+
                 h2 {
                     font-size: 3.5rem;
                 }

@@ -117,6 +117,11 @@ img {
   padding: 150px 0;
   text-align: center;
 }
+@media (min-width: 1000px) {
+  .app-display-section {
+    padding: 200px 0;
+  }
+}
 .app-display-section .app-container {
   display: flex;
   flex-direction: column;
@@ -135,7 +140,6 @@ img {
   .app-display-section .app-container {
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 0;
     text-align: left;
   }
   .app-display-section .app-container img {
@@ -146,7 +150,7 @@ img {
   width: 100%;
 }
 .app-display-section .app-container .app-description p {
-  margin: 50px 0;
+  margin: 30px 0;
 }
 @media (min-width: 700px) {
   .app-display-section .app-container .app-description {
