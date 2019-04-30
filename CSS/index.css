@@ -143,7 +143,7 @@ img {
   }
 }
 header {
-  background: #142C44;
+  background: #385179;
 }
 header .nav-bar {
   display: flex;
@@ -163,17 +163,17 @@ header .nav-bar .menu {
   color: white;
 }
 .home .cta-one {
-  background: #142C44;
+  background: #385179;
 }
 .home .report {
-  background: #142C44;
+  background: #385179;
   color: white;
 }
 .home .cta-two {
-  background: #88B2D8;
+  background: #81CFF6;
 }
 footer {
-  background: #88b2d8;
+  background: #81CFF6;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
