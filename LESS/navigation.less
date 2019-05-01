@@ -1,18 +1,16 @@
 header {
     background: @primary-blue;
-    
+    padding: 20px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .nav-bar {
-        .disp-flex(space-between, center);
-        padding-top: 15px;
-        padding-bottom: 15px;
-        background: transparent;
 
         .logo {
             .primary-logo(17px);
-            color: white;
-        }
-
-        .menu {
             color: white;
         }
     }

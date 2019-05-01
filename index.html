@@ -11,11 +11,18 @@
         <title>Sleep Tracker</title>
     </head>
         <body class="home">
+            <script defer="defer" src="./components/Dropdown/Dropdown.js"></script>
             <header>
-                <div class="nav-bar container">
-                    <h1 class="logo">Sleep Tracker</h1>
-                    <nav>
+                <div class="container">
+                    <div class="nav-bar">
+                        <h1 class="logo">Sleep Tracker</h1>
+                    </div>
+                    <nav class="dropdown">
                         <a href="#"><i class="menu fas fa-bars"></i></a>
+                        <div class="dropdown-content dropdown-hidden">
+                            <i class="fas fa-times-circle close-menu"></i>
+                            <a class="dropdown-link"  href="#">About</a>
+                        </div>
                     </nav>
                 </div>
             </header>
