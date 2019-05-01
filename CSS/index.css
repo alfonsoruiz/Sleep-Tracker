@@ -51,10 +51,6 @@ img {
   margin: 0 auto;
   padding: 0 40px;
 }
-.menu {
-  font-size: 2rem;
-  color: black;
-}
 .cta-section {
   text-align: center;
   padding: 100px 0;
@@ -185,6 +181,7 @@ header .nav-bar .logo {
 }
 .dropdown .menu {
   color: white;
+  font-size: 2rem;
 }
 .dropdown .dropdown-content {
   display: flex;
@@ -208,7 +205,7 @@ header .nav-bar .logo {
 }
 .dropdown .dropdown-content .dropdown-link {
   color: white;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 3.5rem;
   padding: 25px 0;
 }
