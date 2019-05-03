@@ -1,0 +1,84 @@
+.about {
+
+    p {
+        font-size: 1.6rem;
+    }
+
+    header {
+        background: white;
+
+        .nav-bar {
+            .logo a {
+                color: black;
+            }
+        }
+
+        .dropdown {
+            
+            .menu {
+                color: black;
+            }
+
+            .dropdown-content {
+                background: black;
+            }
+        }
+    }
+
+    .about-description {
+        text-align: center;
+        margin-top: 150px;
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            font-family: @primary-font;
+            margin-bottom: 25px;
+        }
+    }
+
+    .team-grid {
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .team-member {
+           margin-bottom: 50px;
+           width: 100%;
+
+           @media @tablet {
+               width: 45%;
+           }
+
+           @media @desktop {
+               width: 30%; 
+           }
+
+           p {
+               margin-top: 7px;
+           }
+
+           .zachary {
+               width: 150px;
+               height: 150px;
+               background: lightgrey;
+               border-radius: 50%;
+               margin: 0 auto 20px auto;
+
+           }
+        }
+    }
+
+    footer {
+        background: transparent;
+        color: black;
+        margin-top: 50px;
+    }
+}

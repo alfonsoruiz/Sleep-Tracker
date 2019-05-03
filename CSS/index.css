@@ -173,7 +173,7 @@ header .container {
   display: flex;
   justify-content: space-between;
 }
-header .nav-bar .logo {
+header .nav-bar .logo a {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-weight: bold;
@@ -185,6 +185,7 @@ header .nav-bar .logo {
 }
 .dropdown .dropdown-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -232,10 +233,74 @@ header .nav-bar .logo {
     order: -1;
   }
 }
+.about p {
+  font-size: 1.6rem;
+}
+.about header {
+  background: white;
+}
+.about header .nav-bar .logo a {
+  color: black;
+}
+.about header .dropdown .menu {
+  color: black;
+}
+.about header .dropdown .dropdown-content {
+  background: black;
+}
+.about .about-description {
+  text-align: center;
+  margin-top: 150px;
+}
+.about .about-description h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 25px;
+}
+.about .team-grid {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about .team-grid img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.about .team-grid .team-member {
+  margin-bottom: 50px;
+  width: 100%;
+}
+@media (min-width: 700px) {
+  .about .team-grid .team-member {
+    width: 45%;
+  }
+}
+@media (min-width: 1000px) {
+  .about .team-grid .team-member {
+    width: 30%;
+  }
+}
+.about .team-grid .team-member p {
+  margin-top: 7px;
+}
+.about .team-grid .team-member .zachary {
+  width: 150px;
+  height: 150px;
+  background: lightgrey;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+}
+.about footer {
+  background: transparent;
+  color: black;
+  margin-top: 50px;
+}
 footer {
   background: #81CFF6;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 50px;
   text-align: center;
   color: white;
 }
