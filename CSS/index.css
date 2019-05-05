@@ -89,6 +89,9 @@ img {
 .cta-section .cta .cta-description button a {
   color: white;
 }
+.cta-section .cta .cta-description button:hover {
+  background: #457fc3;
+}
 @media (min-width: 700px) {
   .cta-section .cta .cta-description {
     width: 50%;
@@ -209,6 +212,9 @@ header .nav-bar .logo a {
   font-family: 'Nunito', sans-serif;
   font-size: 3.5rem;
   padding: 25px 0;
+}
+.dropdown .dropdown-content .dropdown-link:hover {
+  color: #999999;
 }
 .dropdown .dropdown-hidden {
   display: none;
