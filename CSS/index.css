@@ -222,13 +222,16 @@ header .nav-bar .logo a {
 .home .cta-one {
   background: #385179;
 }
+.home .track .app-container img {
+  border: 1px solid black;
+}
 @media (min-width: 1000px) {
   .home .track .app-container img {
     order: -1;
   }
 }
 .home .report {
-  background: #385179;
+  background: #0F2E5A;
   color: white;
 }
 .home .cta-two {
