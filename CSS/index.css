@@ -295,13 +295,6 @@ header .nav-bar .logo a {
 .about .team-grid .team-member p {
   margin-top: 7px;
 }
-.about .team-grid .team-member .zachary {
-  width: 150px;
-  height: 150px;
-  background: lightgrey;
-  border-radius: 50%;
-  margin: 0 auto 20px auto;
-}
 .about footer {
   background: transparent;
   color: black;
